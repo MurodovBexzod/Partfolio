@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 70%;
+    padding: 100px 0;
+ }
+
+body{
+  background-image: url('https://giffiles.alphacoders.com/209/209037.gif');
+  background-size: cover;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 200px 0;
+}
+
+.div2{
+   background-color: black;
+   width: 500px;
+   height: 300px;
+   border: 3px solid greenyellow;
+   text-align: center;
+}
+
+.img{
+   width: 500px;
+   height: 250px;
+}
+
+.text{
+    text-align: center;
+    color: greenyellow;
+    font-size: 50px;
+}
+
+.text2{
+    color: greenyellow;
+    font-size: 20px;
+}
