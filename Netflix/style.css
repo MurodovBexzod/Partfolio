@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/img/IN-en-20231030-popsignuptwoweeks-perspective_alpha_website_large\ 1\ \(1\).png');
+    background-size: cover;
+    background-position: left top;
+  }
+  
+  section > img {
+    padding: 30px 20px;
+    width: 300px;
+  }
+  
+  .box {
+    width: 40%;
+    background-color: #0000009c;
+    padding: 20px;
+    margin: 5% auto;
+  }
+  
+  .box > h1 {
+    font-size: 50px;
+    color: #fff;
+
+  }
+  .register {
+    width: 100%;
+    height: 8vh;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    border: 1px solid #333;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 20px;
+  }
+  
+  .box > a {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    height: 8vh;
+    border-radius: 5px;
+    background-color: #e50914;
+    border: 1px solid #333;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 25px;
+    padding: 20px 0;
+  }
+  .chacked{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } 
+  .chacked > label{
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 600;
+  }
+  .chacked > p{
+    font-size: 14px;
+    color: #ccc;
+  }
+
+  .box > p{
+    color: #ccc;
+    padding-top: 20px;
+  }

@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.section1{
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+}
+.netflix_img{
+    width: 150px;
+    height: 65px;
+    top: 33px;
+    left: 29px;
+}
+a{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.head_div1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.head_div2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.body_section{
+    color: #FFFFFF;
+}
+.body_p{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24.2px;
+}
+.body_div1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.body_div2{
+    display: flex;
+    gap: 20px;
+}
+.body_h1{
+    width: 58px;
+    height: 64.58px;
+    border-radius: 7px;
+    background-color: #E50914;
+    text-align: center;
+    padding: 10px 0;
+}
+.button1{
+    display: flex;
+    align-items: center;
+    width: 157px;
+    height: 75.68px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+.button1  > i {
+    color: #000000;
+    font-size: 40px;
+    padding: 0 20px;
+}
+.button2{
+    display: flex;
+    align-items: center;
+    width: 223px;
+    height: 75.68px;
+    border-radius: 4px;
+    background-color: #6A6868BF;
+    color: #FFFFFF;
+}
+.button2 > i {
+    color: #FFFFFF;
+    font-size: 40px;
+    padding: 0 20px;
+}
+
+.ua > h1 {
+    border-left: 10px solid #fff;
+    padding: 30px 0;
+    display: flex;
+    gap: 30px;
+}
+.ua{
+    display: flex;
+    gap: 20px;
+    padding-left: 90%;
+}
