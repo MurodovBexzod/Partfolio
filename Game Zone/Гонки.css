@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+header {
+  background-image: url("https://instapik.ru/wp-content/uploads/2020/08/dark-background.jpg");
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+}
+
+.head_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head_div img {
+  width: 200px;
+}
+.head_div a {
+  color: yellow;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+.head_div a .span1 {
+  color: blue;
+}
+.head_div a .span2 {
+  color: blueviolet;
+}
+.head_div nav {
+  display: flex;
+  gap: 100px;
+}
+.head_div nav .a1 {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+.head_div nav .a2 {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+.head_div nav .a3 {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+.head_div nav .a4 {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+.head_div nav .a5 {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+.head_div nav .a6 {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+.head_div nav .a1:hover {
+  text-decoration: underline;
+  color: orange;
+}
+.head_div nav .a2:hover {
+  text-decoration: underline;
+  color: green;
+}
+.head_div nav .a3:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+.head_div nav .a4:hover {
+  text-decoration: underline;
+  color: red;
+}
+.head_div nav .a5:hover {
+  text-decoration: underline;
+  color: blueviolet;
+}
+.head_div nav .a6:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.section1 {
+  padding: 20% 0;
+  background-image: url("https://masterpiecer-images.s3.yandex.net/c8ed7c09715e11ee981ab646b2a0ffc1:upscaled");
+  background-size: cover;
+}
+
+.section1_div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section1_div1 div {
+  border: 3px solid blueviolet;
+  background-color: black;
+}
+.section1_div1 img {
+  width: 500px;
+  height: 700px;
+}
+.section1_div1 h1 {
+  text-align: center;
+  color: blueviolet;
+}
+
+.section1_div2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.section1_div2 div {
+  border: 3px solid blueviolet;
+  background-color: black;
+}
+.section1_div2 img {
+  width: 500px;
+  height: 700px;
+}
+.section1_div2 h1 {
+  text-align: center;
+  color: blueviolet;
+}/*# sourceMappingURL=Гонки.css.map */

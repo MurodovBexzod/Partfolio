@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+header{
+    background-image: url('https://instapik.ru/wp-content/uploads/2020/08/dark-background.jpg');
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+}
+.head_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+img{
+    width: 200px;
+}
+
+a{
+    color: yellow;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+
+.span1{
+    color: blue;
+}
+
+.span2{
+    color: blueviolet;
+}
+}
+
+nav{
+    display: flex;
+    gap: 100px;
+
+.a1{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.a2{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.a3{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.a4{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.a5{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.a6{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.a1:hover{
+    text-decoration: underline;
+    color: orange;
+    
+}
+.a2:hover{
+    text-decoration: underline;
+    color: green;
+}
+.a3:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+.a4:hover{
+    text-decoration: underline;
+    color: red;
+}
+.a5:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.a6:hover{
+    text-decoration: underline;
+    color: blue;
+}
+}
+}
+
+.section1{
+    padding: 20% 0;
+    background-image: url('https://kalix.club/uploads/posts/2022-12/1671677523_kalix-club-p-fon-pole-boya-oboi-4.jpg');
+    background-size: cover;
+}
+
+.section1_div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+div{
+    border: 3px solid yellow;
+    background-color: black;
+}
+img{
+    width: 500px;
+    height: 700px;
+}
+
+h1{
+    text-align: center;
+    color: yellow;
+}
+}
+
+.section1_div2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+
+div{
+    border: 3px solid yellow;
+    background-color: black;
+}
+img{
+    width: 500px;
+    height: 700px;
+}
+
+h1{
+    text-align: center;
+    color: yellow;
+}
+}
