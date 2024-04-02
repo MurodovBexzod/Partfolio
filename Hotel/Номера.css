@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@300;400;500;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('img/bgc.png');
+    background-size: cover;
+    overflow: hidden;
+   
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+}
+.logo{
+    display: flex;
+    gap: 50px;
+}
+.logo1{
+    width: 128px;
+    height: 61px;
+}
+.logo2{
+    width: 128px;
+    height: 47px;
+}
+nav{
+    display: flex;
+    gap: 50px;
+}
+a{
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.logo3{
+    width: 32px;
+    height: 32px;
+}
+.button1{
+    width: 171px;
+    height: 42px;
+    border-radius: 8px;
+    padding: 12px, 20px, 12px, 20px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+    color: #1A1A1A;
+    line-height: 18.2px;
+}
+.end{
+    display: flex;
+    gap: 30px;
+}
+
+.number_img{
+    width: 352px;
+    height: 200px;
+    border-radius: 12px;
+    display: block;
+}
+
+.number_button{
+    width: 129px;
+    height: 37px;
+    border-radius: 8px;
+    padding: 8px, 12px, 8px, 12px;
+    background-color: #3D324F;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+.number_div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px 0;
+}
+.number_h1{
+    width: 352px;
+    height: 34px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33.6px;
+    color: #fff;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0;
+}
+.number_p{
+    width: 352px;
+    height: 168px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.number_div1{
+    width: 416px;
+    height: 547px;
+    border-radius: 16px;
+    padding: 28px, 32px, 28px, 32px;
+    background-color: #FFFFFF59;
+    padding: 30px 30px;
+}
